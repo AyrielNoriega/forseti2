@@ -1,0 +1,102 @@
+export const questions = [
+    {
+        id: 0,
+        type: 'date',
+        label: 'Fecha de contabilización s',
+        name: 'fecha_contabilizacion',
+        helperText: 'Ingresa la fecha de contabilización',
+        width: '25%',
+        props: {
+            mr: 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 1,
+        type: 'text_input',
+        label: 'Comentario',
+        name: 'comentario',
+        helperText: 'Comentario',
+        width: '50%',
+        props: {
+            mr: 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 2,
+        type: 'date',
+        label: 'Fecha de documento',
+        name: 'fecha_documento',
+        helperText: 'Fecha de documento',
+        width: '25%',
+        props: {
+            mr: 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 3,
+        type: 'text_input',
+        label: 'Banco oblig.',
+        name: 'banco_oblig',
+        helperText: 'Banco oblig.',
+        width: '25%',
+        props: {
+            // 'mr' => 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 3,
+        type: 'text_input',
+        label: 'Número de crédito',
+        name: 'numero_credito',
+        helperText: 'Número de crédito',
+        width: '25%',
+        props: {
+            // 'mr' => 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 3,
+        type: 'radio_input',
+        label: 'Es obligación financiera?',
+        name: 'numero_credito',
+        helperText: 'Es obligación financiera?',
+        items: [
+            { value: 'Si', selected: true },
+            { value: 'No', selected: false },
+        ],
+        width: '25%',
+        props: {
+            // 'mr' => 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 4,
+        type: 'text_input',
+        label: 'Total patrimonio',
+        name: 'total_patrimonio',
+        helperText: 'Ingresa el total patrimonio',
+        width: '24%',
+        props: {
+            mr: 1,
+            mt: 0,
+        },
+    },
+    {
+        id: 5,
+        type: 'text_input',
+        label: 'Utilidad neta',
+        name: 'utilidad_neta',
+        helperText: 'Ingresa la utilidad neta',
+        width: '24%',
+        props: {
+            mr: 1,
+            mt: 0,
+        },
+    },
+];
